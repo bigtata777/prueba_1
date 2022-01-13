@@ -6,7 +6,7 @@ y =[]
 
 for i in range(len(x)):
 
-    w = x[i]**3-x[i]**2-x[i]-1
+    w = (x[i]**3-x[i]**2-x[i]-1)/1+x[i]**2 -0.008*x[i]
 
     y.append(w)
 
