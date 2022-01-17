@@ -8,7 +8,9 @@ for i in range(len(x)):
 
     w = x[i]**3-x[i]**2-x[i]-1
 
-    y.append(w)
+    z = 1/ 1 + x[i]**2
+
+    y.append(list(zip(w,z)))
 
 print(y)
 
