@@ -1,2 +1,2 @@
-# prueba_1
+# Imagenes
 primir codigo subido a git
